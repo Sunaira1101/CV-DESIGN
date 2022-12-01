@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:content-box;
+    font-family: 'Times New Roman';
+    
+} 
+
+body{
+    background-color: #FDEDEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+      
+}
+
+.resumebox{
+    overflow:hidden;
+    position: relative; 
+    width: 800px;
+    height: 1200px;
+    margin: 100px auto;
+    background-color: #ebe7ed;
+    box-shadow: 10px 20px 20px 20px rgb(163, 163, 163);  
+}
+
+.resumebox .left_side{
+    position: absolute;
+    width: 200px;
+    height: 1200px;
+    background: #003147;
+    padding: 40px;
+    
+}
+
+.resumebox .middle_side{
+    position: relative;
+    width: 550px;
+    height: 150px;
+    background: rgb(240, 235, 182);
+    left: 280px;
+    top: 80px;
+}
+
+.education{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    left: 24px;
+    overflow: hidden;
+    border:2px solid black;
+    object-fit:contain;
+    padding: auto;
+    border-radius: 30px 0px 30px 0px;
+    
+}
+
+.education h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    padding-bottom: -70px ;
+    border-bottom: 3px solid yellow ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.eduinfo{
+    width: 170px;
+    height: 150px;
+    padding: 1em;
+    position:relative;
+    margin-top: 10px;
+    font-size: 1.5em;
+    z-index:1;
+    color: #fff;
+    font-size:16px;
+    padding-bottom: 55px ;
+    border-bottom: 1px solid grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.skills h3{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    padding-bottom: -70px ;
+    border-bottom: 3px solid yellow ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.skillsinfo{
+    width: 150px;
+    height: 150px;
+    padding: 1em;
+    position:relative;
+    margin-top: 10px;
+    font-size: 1.5em;
+    z-index:1; /*only works for position*/
+    color: #fff;
+    font-size:16px;
+    padding-bottom: 40px ;
+    border-bottom: 1px solid grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+   
+}
+
+.contact h4{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    padding-bottom: -70px ;
+    border-bottom: 3px solid yellow ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contactinfo{
+    width: 150px;
+    height: 150px;
+    padding: 1em;
+    position:relative;
+    margin-top: 10px;
+    font-size: 1.5em;
+    z-index:1;
+    color: #fff;
+    font-size:16px;
+    padding-bottom: 90px ;
+    border-bottom: 1px solid grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.name{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    right: 40px;
+}
+ .name h2{
+    color: black;
+    font-size: 2em;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ } 
+
+ .name span{
+    color: rgb(30, 1, 1);
+    font-size: 1em;
+    margin-top: -10px;
+    text-transform: uppercase;
+    position: relative;
+    left: -82px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1em;
+    font-family: 'Times New Roman';
+ }
+
+ .about{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    top: 85px;
+    right: 30px; 
+ }
+
+ .about h2{
+    color: black;
+    font-size: 1.5em;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    padding-bottom: -70px ;
+    border-bottom: 3px solid brown ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .aboutinfo{
+    
+    width: 470px;
+    height: 150px;
+    left: 170px;
+    padding: 1em;
+    display: block;
+    position:relative;
+    margin-top: -10px;
+    font-style: italic;
+    z-index:1;
+    color: black;
+    font-size:16px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+.exps{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    top: 115px;
+    right: 20px; 
+ }
+
+ .exps h2{
+    color: black;
+    font-size: 1.5em;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    padding-bottom: -70px ;
+    border-bottom: 3px solid brown ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .expinfo{
+    width: 450px;
+    height: 150px;
+    left: 165px;
+    padding: 1em;
+    display: block;
+    position:relative;
+    margin-top: 10px;
+    font-weight: 500;
+    color: black;
+    font-size:16px;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.interests{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    top: 170px;
+    right: 27px; 
+ }
+
+ .interests h2{
+    color: black;
+    font-size: 1.5em;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    padding-bottom: -70px ;
+    border-bottom: 3px solid brown ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .interestsinfo{
+    width: 470px;
+    height: 150px;
+    left: 170px;
+    padding: 1em;
+    display: block;
+    position:relative;
+    margin-top: 10px;
+    font-weight: 400;
+    color: black;
+    font-size:16px;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
